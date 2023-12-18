@@ -131,6 +131,15 @@ img[src="./images/nature-3082832_1920.jpg"] {
 }
 
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    height: 150px;
+}
+
 button {
     background-color: #3882f6;
     color: white;
