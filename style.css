@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
 body {
     height: 140vh;
-   font-family: 'Roboto';
+   font-family: 'Roboto', sans-serif;
    margin: 0;
    display: flex;
    flex-direction: column;
@@ -81,7 +83,53 @@ img[src="./images/nature-3082832_1920.jpg"] {
 .quote {
     height: 400px;
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.quote-text {
+    text-align: center;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    width: 800px;
+}
+
+.quote-origin {
+    margin-top: auto;
+    margin-bottom: 64px;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.act-container {
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+}
+
+.act-text {
+    padding: 44px 200px 44px 100px;
+}
+.act-main-text {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.act-sub-text {
+    color: rgba(255, 255, 255, 0.779);
+    font-size: 18;
+}
+
 
 button {
     background-color: #3882f6;
@@ -90,11 +138,20 @@ button {
     padding: 6px 18px;
     border-radius: 8px;
     border: 0;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .sign-up {
     margin-top: 8px;
+}
+
+.sign-up2 {
+    border: 1px solid white;
+    padding: 0;
+    margin-top: 44px;
+    margin-right: 300px;
+    border-radius: 8px;
+    height: max-content;
 }
 .logo {
     font-size: 24px;
